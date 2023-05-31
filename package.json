@@ -6,8 +6,10 @@
   "scripts": {
     "build": "npx tsc && copyfiles -u 1 src/**/*.jpg build/src/",
     "jasmine": "jasmine --reporter=jasmine-console-reporter \"build/**/**/*.js\"",
-    "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"build/**/**/*.js\"",
-    "prettier": "prettier --config .prettierrc.json \"src/*.ts\" \"src/**/*.ts\" \"build/**/**/*.js\" --write",
+    "lintTS": "eslint \"src/*.ts\" \"src/**/*.ts\"",
+    "lintJS": "\"build/**/**/*.js\"",
+    "prettierTS": "prettier --config .prettierrc.json \"src/*.ts\" \"src/**/*.ts\" --write",
+    "prettierJS": "prettier --config .prettierrc.json \"build/**/**/*.js\" --write",
     "start": "nodemon --exec ts-node src/app.ts",
     "test": "npm run build && npm run prettier && npm run jasmine"
   },
