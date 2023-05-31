@@ -66,8 +66,15 @@ After running the API locally on PORT 3000, please check instructions on how to 
 
 To check the code and format it, please run:
 
-`npm run prettier`
-`npm run lint`
+## TS Files
+
+`npm run prettierTS`
+`npm run lintTS`
+
+## JS Files
+
+`npm run prettierJS`
+`npm run lintJS`
 
 # Author
 
