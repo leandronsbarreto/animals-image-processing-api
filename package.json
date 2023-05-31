@@ -8,6 +8,7 @@
     "jasmine": "jasmine --reporter=jasmine-console-reporter \"build/**/**/*.js\"",
     "lintTS": "eslint \"src/*.ts\" \"src/**/*.ts\"",
     "lintJS": "\"build/**/**/*.js\"",
+    "prettier": "npm run prettierJS && npm run prettierTS",
     "prettierTS": "prettier --config .prettierrc.json \"src/*.ts\" \"src/**/*.ts\" --write",
     "prettierJS": "prettier --config .prettierrc.json \"build/**/**/*.js\" --write",
     "start": "nodemon --exec ts-node src/app.ts",
