@@ -48,7 +48,7 @@ Tests can be executed with:
 
 **Tests were also executed with Postman. No bugs were found before submission.
 
-## Endpoints
+# Endpoints
 
 - / -> home
 - /animals -> main router (index.ts)
