@@ -82,17 +82,17 @@ Leandro Barreto
 
 # Image sources
 
-https://unsplash.com/
-https://symbl.cc/en/
+- https://unsplash.com/
+- https://symbl.cc/en/
 
 # Support and reference
 
-https://blog.logrocket.com/
-https://eslint.org/
-https://expressjs.com/
-LinkedIn Learning
-https://www.typescriptlang.org/
-Udacity
+- https://blog.logrocket.com/
+- https://eslint.org/
+- https://expressjs.com/
+- LinkedIn Learning
+- https://www.typescriptlang.org/
+- Udacity
 
 # Date of submission
 
